@@ -1,4 +1,3 @@
-name: Test the Action
 on: [push, workflow_dispatch]
 
 jobs:
