@@ -1682,6 +1682,7 @@ try {
   console.log(`Hello world!`);
 } catch (error) {
   core.setFailed(error.message);
+  throw error;
 }
 })();
 
